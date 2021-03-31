@@ -97,6 +97,9 @@ header nav a:hover {
     margin-right: 8px;
 }
 
+.carrousel-filmes {
+    margin-top: 5px;
+}
 .box-filme {
     height: 100%;
     width: 100%;
