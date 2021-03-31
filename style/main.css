@@ -51,9 +51,10 @@ header nav a:hover {
     margin-left: 30px;
 }
 
-.filme-principal {
+.principal {
+    margin-bottom:10px ;
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/breakingbad.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../resourses/img/breakingbadcapa.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
@@ -62,22 +63,23 @@ header nav a:hover {
     align-items: flex-start;
 }
 
-.filme-principal .titulo {
+.principal .titulo {
     margin-top: 5%;
     font-size: 40px;
     font-family: 'Trebuchet MS';
 }
 
-.filme-principal .descricao {
+.principal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.filme-principal .container {
+.principal .container {
     width: 70%;
 }
 
 .botao {
+    text-decoration: none;
     background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
@@ -97,11 +99,25 @@ header nav a:hover {
     margin-right: 8px;
 }
 
-.carrousel-filmes {
+.titulo-categoria {
+    margin-left: 5px;
+}
+
+.carrousel {
     margin-top: 5px;
 }
-.box-filme {
+.box-video {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.box-video:hover {
+    background-color: rgba(0, 0, 0, .50);
+    border: #FFF;
+}
+
+footer {
+    margin: 1%;
+    text-align: center;
 }
