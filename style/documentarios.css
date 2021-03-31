@@ -54,7 +54,7 @@ header nav a:hover {
 .principal {
     margin-bottom:10px ;
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../resourses/img/breakingbadcapa.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../resourses/img/marielle.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
@@ -110,10 +110,6 @@ header nav a:hover {
     height: 30%;
     width: 30%;
     display: block;
-}
-
-#div-container .box-video-item:hover {
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../resourses/img/breakingbadcapa.jpg');
 }
 
 footer {

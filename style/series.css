@@ -112,10 +112,6 @@ header nav a:hover {
     display: block;
 }
 
-#div-container .box-video-item:hover {
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../resourses/img/breakingbadcapa.jpg');
-}
-
 footer {
     margin: 1%;
     text-align: center;
